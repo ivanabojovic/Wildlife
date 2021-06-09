@@ -41,7 +41,7 @@ header {
         cursor: pointer;
         color: #666666; }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .section-1 {
     background-size: cover;
     background-position: center center;
