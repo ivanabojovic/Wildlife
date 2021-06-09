@@ -199,6 +199,24 @@ header {
       font-size: 45px; } }
 @media (min-width: 768px) {
   .section-4 .top10 h1 {
-    font-size: 55px; } }
+    font-size: 55px; }
+  .section-4 .top10 p {
+    padding-top: 30px; } }
+.bottom p {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px; }
+
+@media (min-width: 768px) {
+  .bottom h2 {
+    font-size: 2.7rem; } }
+footer {
+  text-align: center; }
+  footer a {
+    color: #fff;
+    letter-spacing: 1px; }
+    footer a:hover {
+      cursor: pointer;
+      text-decoration: none;
+      color: red; }
 
 /*# sourceMappingURL=theme.css.map */

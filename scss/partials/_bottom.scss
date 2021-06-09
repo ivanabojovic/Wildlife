@@ -1,0 +1,16 @@
+.bottom {
+    p {
+        font-family: $font-raleway;
+        letter-spacing: 1px;
+    }
+}
+
+
+
+@media(min-width:768px) {
+    .bottom {
+        h2 {
+            font-size:2.7rem;
+        }
+    }
+}
