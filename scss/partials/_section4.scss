@@ -1,0 +1,41 @@
+.section-4 {
+    padding-top:60px;
+    article {
+        .photo-1 {
+            margin-right:10px;
+        }
+    }
+    .top10 {
+        h1 {
+            font-weight:bold;
+        }
+    }
+}
+
+@media(min-width:576px) {
+    .section-4 {
+        padding-top:120px;
+    article {
+        .photo-1 {
+            margin-right:30px;
+        }
+    }
+    .top10 {
+        h1 {
+            font-size:45px;
+        }
+    }
+}
+}
+
+@media(min-width:768px) {
+    .section-4 {
+        
+    .top10 {
+        h1 {
+            font-size:55px;
+        }
+    }
+}
+}
+

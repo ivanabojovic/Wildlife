@@ -1,0 +1,16 @@
+.horses {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding:150px 50px;
+}
+@media(min-width:768px) {
+    .horses {
+        padding:200px 100px;
+    }
+}
+@media(min-width:992px) {
+    .horses {
+        padding:250px 150px;
+    }
+}

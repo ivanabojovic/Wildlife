@@ -1,0 +1,22 @@
+.section-3 {
+    h1 {
+
+        font-weight:700;
+    }
+}
+
+@media(min-width:768px) {
+    .section-3 {
+        .container {
+            padding:50px 140px 0px;
+        }
+        h1 {
+            font-size:50px;
+        }
+        p {
+            padding-top: 100px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+    }
+}

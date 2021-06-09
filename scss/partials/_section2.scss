@@ -1,0 +1,87 @@
+.section-2 {
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding:50px 50px;
+    .heading {
+        padding-top:200px;
+        h1 {
+            font-weight: 700;
+            font-size:35px;
+        }
+        p {
+            
+            font-family:$font-raleway;
+            letter-spacing:1.5px;
+            font-weight: 700;
+        }
+
+    }
+
+}
+
+
+@media(min-width:576px) {
+    .section-2 {
+        
+        padding:150px 100px;
+        .heading {
+            padding-top:400px;
+            h1 {
+                font-weight: 700;
+                font-size:45px;
+            }
+            p {
+                font-family:$font-raleway;
+                letter-spacing:1.5px;
+                font-weight: 700;
+            }
+
+        }
+
+    }
+}
+@media(min-width:768px) {
+    .section-2 {
+        
+        padding:200px 150px;
+        .heading {
+            padding-top:400px;
+            h1 {
+                font-weight: 700;
+                font-size:55px;
+            }
+            p {
+                font-family:$font-raleway;
+                letter-spacing:1.5px;
+                font-weight: 700;
+            }
+
+        }
+
+    }
+}
+
+@media(min-width:992px) {
+    .section-2 {
+        
+        padding:250px 150px;
+        .heading {
+            padding-top:400px;
+            h1 {
+                font-weight: 700;
+                font-size:6rem;
+            }
+            p {
+                padding-left:180px;
+                padding-right:180px;
+                font-family:$font-raleway;
+                letter-spacing:1.5px;
+                font-weight: 700;
+            }
+
+        }
+
+    }
+}
+
